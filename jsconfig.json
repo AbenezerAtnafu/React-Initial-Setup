@@ -1,12 +1,12 @@
 {
   "include": ["./src/**/*"],
-    "compilerOptions": {
-      "baseUrl": "src",
-      "paths": {
-        "@components/*": ["./components/*"],
-        "@common/*": ["./components/common/*"],
-        "@images/*": ["./assets/images/*"]
-      },
-    },
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@common/*": ["./components/common/*"],
+      "@images/*": ["./assets/images/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
